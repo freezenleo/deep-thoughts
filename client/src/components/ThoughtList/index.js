@@ -5,6 +5,7 @@ const ThoughtList = ({ thoughts, title }) => {
     if (!thoughts.length) {
         return <h3>No Thoughts Yet</h3>
     }
+
     console.log('title', title);
     return (
         <div>
